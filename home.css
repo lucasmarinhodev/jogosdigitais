@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.apresetacao {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #74A9DB;
+}
+
+/*------------------------HEADER------------------------*/
+
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    border-bottom: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-header {
+    margin-top: 40px;
+}
+
+.menu-header ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu-header ul li a {
+    color: #636363;
+    text-decoration: none;
+}
+
+.login {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #74A9DB;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 8px 32px;
+    font-weight: 600;
+    background-color: #74A9DB;
+}
+
+/*------------------------HEADER------------------------*/
+
+
+/*------------------------Bucas por jogos------------------------*/
+.selecao_jogos {
+    margin-bottom: 30px;
+}
+
+.Categorias_jogos {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 900;
+    color: #74A9DB;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.jogos-container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jogos-container p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #636363;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.jogos-container p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*------------------------jogos Container------------------------*/
+.container-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: "inter";
+}
+
+.jogos {
+    width: calc(50% - 20px);
+    max-width: 420px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.titulojogo {
+    text-align: center;
+    color: #262626;
+    font-size: 39px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.titulojogo a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.baixar_jogo {
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    padding: 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    background-color: #74A9DB;
+    margin-top: 20px;
+}
+
+.jogos button a {
+    text-decoration: none;
+    background-color: #74A9DB;
+    color: #fff;
+}
+
+
+/*------------------------Footer------------------------*/
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    border-top: 12px solid;
+    border-image: linear-gradient(to right, #ffffff, #74A9DB) 1;
+    gap: 10px;
+}
+
+.menufooter {
+    margin-top: 50px;
+}
+
+.menufooter ul li {
+    display: inline;
+}
+
+.menufooter ul li a {
+    color: #636363;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.social-icons {
+    margin-top: 35px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.creditos p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 30px;
+
+}
+
+/*------------------------Footer------------------------*/
+/*-----------------------Media Queries -------------------------*/
+@media only screen and (max-width: 480px) {
+
+    .container-jogos {
+        padding: 10px;
+    }
+    
+    .jogos {
+        width: 100%;
+        margin: 10px 0; 
+        font-size: 0.9em;
+    }
+    
+    .jogos img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    
+    .titulojogo {
+        font-size: 1.5em; 
+    }
+    
+    .descricaojogo {
+        font-size: 0.9em;
+    }
+    
+    .baixar_jogo {
+        font-size: 1em; 
+        padding: 8px 12px;
+    }
+}
+
+/*-----------------------Media Queries Fim-------------------------*/
